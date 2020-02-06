@@ -9,5 +9,9 @@ public class MyTest {
     public String test2(){
         return "test1";
     }
-    
+
+    public String test3(){
+        return "test1";
+    }
+
 }
