@@ -1,0 +1,6 @@
+projectKey=test-sonar
+serverUrl=http://dashboard.ac.104.com.tw
+serverVersion=6.7.0.33306
+dashboardUrl=http://dashboard.ac.104.com.tw/dashboard/index/test-sonar
+ceTaskId=AXAbpEQHeQ2ZQdqpwP2S
+ceTaskUrl=http://dashboard.ac.104.com.tw/api/ce/task?id=AXAbpEQHeQ2ZQdqpwP2S
