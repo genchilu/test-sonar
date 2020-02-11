@@ -15,21 +15,21 @@ public class MyTestTest {
     @Test
     public void testTest2(){
         MyTest myTest = new MyTest();
-        myTest.test1();
+        myTest.test2();
         assertTrue(true);
     }
 
     @Test
     public void testTest3(){
         MyTest myTest = new MyTest();
-        myTest.test1();
+        myTest.test3();
         assertTrue(true);
     }
 
     @Test
     public void testTest4(){
         MyTest myTest = new MyTest();
-        myTest.test1();
+        myTest.test4();
         assertTrue(true);
     }
 }
