@@ -11,4 +11,25 @@ public class MyTestTest {
         myTest.test1();
         assertTrue(true);
     }
+
+    @Test
+    public void testTest2(){
+        MyTest myTest = new MyTest();
+        myTest.test1();
+        assertTrue(true);
+    }
+
+    @Test
+    public void testTest3(){
+        MyTest myTest = new MyTest();
+        myTest.test1();
+        assertTrue(true);
+    }
+
+    @Test
+    public void testTest4(){
+        MyTest myTest = new MyTest();
+        myTest.test1();
+        assertTrue(true);
+    }
 }
