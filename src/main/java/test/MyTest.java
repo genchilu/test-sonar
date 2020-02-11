@@ -18,4 +18,8 @@ public class MyTest {
         return "test1";
     }
 
+    public String test5(){
+        return "test1";
+    }
+
 }
