@@ -32,4 +32,11 @@ public class MyTestTest {
         myTest.test4();
         assertTrue(true);
     }
+
+    @Test
+    public void testTest6(){
+        MyTest myTest = new MyTest();
+        myTest.test6();
+        assertTrue(true);
+    }
 }

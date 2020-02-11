@@ -22,4 +22,8 @@ public class MyTest {
         return "test1";
     }
 
+    public String test6(){
+        return "test1";
+    }
+
 }
