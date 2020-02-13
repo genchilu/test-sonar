@@ -18,4 +18,14 @@ public class MyTest2 {
         return "test1";
     }
 
+    public String test25(){
+        return "test1";
+    }
+    public String test26(){
+        return "test1";
+    }
+    public String test27(){
+        return "test1";
+    }
+
 }
