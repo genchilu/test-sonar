@@ -30,4 +30,8 @@ public class MyTest {
         return "test1";
     }
 
+    public String test8(){
+        return "test1";
+    }
+
 }
