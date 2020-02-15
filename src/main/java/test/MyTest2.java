@@ -27,8 +27,8 @@ public class MyTest2 {
     public String test27(){
         return "test1";
     }
-    public String test28(){
-        return "test1";
+    public void test28(){
+        
     }
 
 }
