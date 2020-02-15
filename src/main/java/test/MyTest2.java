@@ -28,12 +28,8 @@ public class MyTest2 {
         return "test1";
     }
 
-    public void test28(){
-        try {
-            Thread.sleep(1);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+    public void test28() throws InterruptedException {
+        Thread.sleep(1);
     }
 
 }
