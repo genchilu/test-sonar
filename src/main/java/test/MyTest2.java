@@ -27,8 +27,8 @@ public class MyTest2 {
     public String test27(){
         return "test1";
     }
-    public void test28(){
-        
+    public void test28() throws InterruptedException {
+        Thread.sleep(1);
     }
 
 }
