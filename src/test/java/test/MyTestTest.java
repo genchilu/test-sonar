@@ -39,4 +39,11 @@ public class MyTestTest {
         myTest.test6();
         assertTrue(true);
     }
+
+    @Test
+    public void testTest9() throws InterruptedException {
+        MyTest myTest = new MyTest();
+        myTest.test9();
+        assertTrue(true);
+    }
 }

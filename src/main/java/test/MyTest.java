@@ -34,8 +34,8 @@ public class MyTest {
         return "test1";
     }
 
-    public String test9(){
-        return "test1";
+    public void test9() throws InterruptedException {
+        Thread.sleep(1);
     }
 
 }
