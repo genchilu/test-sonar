@@ -2,36 +2,23 @@ package test;
 
 public class MyTest {
 
-    public String test1(){
+    public String oldCodeFun1(){
         return "test1";
     }
 
-    public String test2(){
+    public String oldCodeFun2(){
         return "test1";
     }
 
-    public String test3(){
+    public String oldCodeFun3(){
         return "test1";
     }
 
-    public String test4(){
+    public String oldCodeFun4(){
         return "test1";
     }
 
-    public String test5(){
+    public String oldCodeFun5(){
         return "test1";
     }
-
-    public String test6(){
-        return "test1";
-    }
-
-    public String test7(){
-        return "test1";
-    }
-
-    public String test8(){
-        return "test1";
-    }
-
 }
