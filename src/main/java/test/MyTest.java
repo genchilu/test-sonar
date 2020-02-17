@@ -22,27 +22,28 @@ public class MyTest {
         return "test1";
     }
 
+    private static String uselessMsg = "廢 code";
     public void newCodeFun1() throws InterruptedException {
-        System.out.println("廢 code");
-        System.out.println("廢 code");
-        System.out.println("廢 code");
-        System.out.println("廢 code");
+        System.out.println(uselessMsg);
+        System.out.println(uselessMsg);
+        System.out.println(uselessMsg);
+        System.out.println(uselessMsg);
         Thread.sleep(1);
     }
 
     public void newCodeFun2() throws InterruptedException {
-        System.out.println("廢 code");
-        System.out.println("廢 code");
-        System.out.println("廢 code");
-        System.out.println("廢 code");
+        System.out.println(uselessMsg);
+        System.out.println(uselessMsg);
+        System.out.println(uselessMsg);
+        System.out.println(uselessMsg);
         Thread.sleep(1);
     }
 
     public void newCodeFun3() throws InterruptedException {
-        System.out.println("廢 code");
-        System.out.println("廢 code");
-        System.out.println("廢 code");
-        System.out.println("廢 code");
+        System.out.println(uselessMsg);
+        System.out.println(uselessMsg);
+        System.out.println(uselessMsg);
+        System.out.println(uselessMsg);
         Thread.sleep(1);
     }
 }
