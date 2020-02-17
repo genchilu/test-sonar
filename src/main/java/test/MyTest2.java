@@ -32,4 +32,8 @@ public class MyTest2 {
         Thread.sleep(1);
     }
 
+    public void test29() throws InterruptedException {
+        Thread.sleep(1);
+    }
+
 }
