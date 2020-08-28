@@ -12,7 +12,7 @@ public class Example {
         if(global == null) {
             synchronized (this) {
                 if (global == null) {
-                    global = new ArrayList();
+                    global = new ArrayList<String>();
                 }
             }
         }
