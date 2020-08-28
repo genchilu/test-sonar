@@ -6,13 +6,13 @@ import java.util.List;
 
 public class Example {
 
-    static List<String> list;
+    static List<String> global;
 
     public Example() {
-        if(list == null) {
+        if(global == null) {
             synchronized (this) {
-                if (list == null) {
-                    list = new ArrayList<String>();
+                if (global == null) {
+                    global = new ArrayList();
                 }
             }
         }
@@ -27,11 +27,11 @@ public class Example {
         return list;
     }
 
-    public boolean isExceed(List<String> list, int threshold) {
+    public boolean isExceed(List<String> mylist, int threshold) {
 
         // Some business rule here
 
-        boolean empty = list.size() > threshold;
+        boolean empty = mylist.size() > threshold;
         return empty;
     }
 
