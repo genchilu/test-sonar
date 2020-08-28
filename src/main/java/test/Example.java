@@ -34,10 +34,4 @@ public class Example {
         boolean empty = mylist.size() > threshold;
         return empty;
     }
-
-    public static void main(String[] args) {
-        Example example = new Example();
-        List<String> tmp = example.getSomeList();
-        boolean result = example.isExceed(tmp, 0);
-    }
 }
